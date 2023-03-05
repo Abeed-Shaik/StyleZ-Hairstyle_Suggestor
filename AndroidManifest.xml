@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.abeed.stylez">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StyleZ"
+        tools:targetApi="31">
+        <activity
+            android:name=".HBHeartActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".HBRoundActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".HBTriangleActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".HBOblongActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".HBSquareActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".HBOvalActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".OvalBeardMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBOvalActivity" />
+        </activity>
+        <activity
+            android:name=".DiamondBeardMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBDiamondActivity" />
+        </activity>
+        <activity
+            android:name=".TriangleBeardMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBTriangleActivity" />
+        </activity>
+        <activity
+            android:name=".SquareBeardMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBSquareActivity" />
+        </activity>
+        <activity
+            android:name=".HeartBeardMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBHeartActivity" />
+        </activity>
+        <activity
+            android:name=".RoundBeardMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBRoundActivity" />
+        </activity>
+        <activity
+            android:name=".OblongBeardMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBOblongActivity" />
+        </activity>
+        <activity
+            android:name=".DiamondHairWomen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".LongHairWomen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".HeartHairWomen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".RoundHairWomen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".SquareHairWomen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".OvalHairWomen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".HeartHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBHeartActivity" />
+        </activity>
+        <activity
+            android:name=".DiamondHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBDiamondActivity" />
+        </activity>
+        <activity
+            android:name=".RoundHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBRoundActivity" />
+        </activity>
+        <activity
+            android:name=".OblongHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBOblongActivity" />
+        </activity>
+        <activity
+            android:name=".SquareHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBSquareActivity" />
+        </activity>
+        <activity
+            android:name=".TriHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBTriangleActivity" />
+        </activity>
+        <activity
+            android:name=".OvalHairMen"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HBOvalActivity" />
+        </activity>
+        <activity
+            android:name=".DiamondWomen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".LongWmen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".HeartWmen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".RoundWmen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".SquareWmen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".OvalWmen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".HeartMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".DiamondMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".RoundMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".OvalMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".TriangularMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".SquareMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".OblongMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".HBDiamondActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".MeasureTipWomen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementWomen" />
+        </activity>
+        <activity
+            android:name=".MeasurementTip"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MeasurementMen" />
+        </activity>
+        <activity
+            android:name=".MeasurementWomen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MeasurementMen"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
